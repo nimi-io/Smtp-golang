@@ -1,0 +1,4 @@
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
+github.com/keighl/postmark v0.0.0-20190821160221-28358b1a94e3 h1:J/fzo/5aWuJBtoi82KCJH4jnNYmVlnaIQC9nFI8KMeU=
+github.com/keighl/postmark v0.0.0-20190821160221-28358b1a94e3/go.mod h1:Pz+php+2qQ4fWYwCa5O/rcnovTT2ylkKg3OnMLuFUbg=
