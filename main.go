@@ -9,16 +9,6 @@ import (
 	"github.com/keighl/postmark"
 )
 
-type PostmarkResponse struct {
-	ErrorCode    int    `json:"ErrorCode"`
-	Message      string `json:"Message"`
-	MessageID    string `json:"MessageID"`
-	SubmittedAt  string `json:"SubmittedAt"`
-	To           string `json:"To"`
-	ProcessedAt  string `json:"ProcessedAt"`
-	ResponseTime int    `json:"ResponseTime"`
-}
-
 func main() {
 	err := godotenv.Load()
 	if err != nil {
@@ -45,6 +35,5 @@ func main() {
 		return
 	}
 
-	
 	fmt.Println("The email was sent successfully!", sendResult)
 }
