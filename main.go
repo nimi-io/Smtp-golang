@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"os"
@@ -35,5 +36,9 @@ func main() {
 		return
 	}
 
-	fmt.Println("The email was sent successfully!", sendResult)
+
+	jsonData, err := json.Marshal(sendResult)
+	jsonText := string(jsonData)
+
+	log.Printf("The email was sent successfully! %s\n", jsonText)
 }
