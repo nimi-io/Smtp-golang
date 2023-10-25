@@ -38,6 +38,9 @@ func main() {
 
 
 	jsonData, err := json.Marshal(sendResult)
+	if err != nil {
+		fmt.Println(err)
+	}
 	jsonText := string(jsonData)
 
 	log.Printf("The email was sent successfully! %s\n", jsonText)
